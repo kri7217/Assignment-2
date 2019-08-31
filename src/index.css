@@ -1,0 +1,133 @@
+body {
+  width: 1440px;
+  height: 1543px;
+  border: solid 1px rgba(255,255,255,0.04);
+  background: #fdfdfd;
+}
+
+a { cursor: pointer; }
+
+.header{
+  width: 1440px;
+  height: 64px;
+  background: #ffffff;
+  box-shadow: 0px 2px4px rgba(0,0,0,0.09);
+  display: flex;
+  align-items: center;
+}
+
+.logo_section{
+  width: 69.62px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-left: 165px;
+  flex-grow: 1;
+}
+
+.notify_section{
+  margin-right: 165px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+}
+
+#bell_icon{
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 4px;
+}
+
+.count{
+  width: 23.81px;
+  height: 18.89px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.3px;
+}
+
+.unread_count{
+  position: absolute;
+  width: 28.57px;
+  height: 26.67px;
+  background: #f25c69;
+  color: white;
+  right: 5px;
+  top: -5px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.abGrp{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:#b3e77f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ab{
+  width: 36px;
+  height: 26px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 415px) {
+
+  .header{
+    width: 360px;
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 2px4px rgba(0,0,0,0.09);
+  margin-top: 4px;
+  }
+  .logo_section{
+    margin-left: 16px;
+  }
+  .notify_section{
+    margin-right: 16px;
+  }
+  #bell_icon{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+
+  .unread_count{
+    width: 24px;
+    height: 24px;
+    background: #f25c69;
+    right: -5px;
+  }
+  .abGrp{
+    width: 32px;
+    height: 32px;
+    background: #3ebcb3;
+  }
+  .ab{
+    width: 28px;
+    height: 21px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+  }
+}
